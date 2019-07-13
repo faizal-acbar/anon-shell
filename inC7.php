@@ -2446,8 +2446,8 @@ else
 
 <div class="end" id='footer' style="margin-top: 20px;">
 <p align="center"><b>&copyCopyright inC7 All rights reserved</b><br />
-(: <a href="http://www.facebook.com/rudyozog">Facebook</a> :) <br />
-\m/ <b>Greetz to</b> : Mr.L00L - Mr.Newbie - Mr.??? - BlackHat4you - inC7 - Mr.Mux - Askin Cressida - Omest - Zak - Vijune15 - Inyour Good - Extazy - Worm ID 
+[ <a href="http://www.facebook.com/rudyozog">Facebook</a> ] <br />
+<b>Greetz to</b> : Mr.L00L - Mr.Newbie - Mr.??? - BlackHat4you - inC7 - Mr.Mux - Askin Cressida - Omest - Zak - Vijune15 - Inyour Good - Extazy - Worm ID 
 </p>
 </div>
 
