@@ -1,2 +1,4 @@
 # anon-shell
-Anon webshell v.1.0
+username Default : inC7
+
+password Default : inC7
