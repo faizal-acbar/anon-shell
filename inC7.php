@@ -27,7 +27,7 @@ ini_set('max_execution_time',0);
 ini_set('memory_limit','999999999M');
 
 
-function Zip($source, $destination) // Thanks to Alix Axel
+function Zip($source, $destination) // Thanks to All Indonesian Defacer
 {
     if (!extension_loaded('zip') || !file_exists($source)) {
         return false;
